@@ -1,20 +1,28 @@
 * {
-font-family: 'Trebuchet MS', Arial, sans-serif;
+font-family:'Times New Roman', Times, serif;
 }
 
 body {
-
+background-color: rgb(133, 172, 216);
 }
 
 .header {
-position: fixed;
+padding: 60px;
+  text-align: center;
+  background: #637585;
+  color: white;
+  font-size: 30px;
 }
 
 .header h1 {
 
 }
 
-.header div {
+.header div ul li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
 
 }
 
@@ -23,11 +31,13 @@ a {
 }
 
 .content {
-    margin-top: 100px;
+    
 }
 
 .old-telephone {
+}
 
+figcaption {
 }
 
 .contact-form {
